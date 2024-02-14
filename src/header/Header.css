@@ -1,0 +1,15 @@
+.header{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 1;
+
+}
+
+.header__img{
+    width: 120px;
+    margin: 25px;
+    border-radius: 100%;
+    border: solid 2px gray;
+}

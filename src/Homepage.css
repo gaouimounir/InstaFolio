@@ -4,13 +4,16 @@
 }
 
 .homepage__header{
-    flex: 0,25;
+    flex: 0.25;
+    background-color: aqua;
 }
 
 .homepage__skills{
-    flex: 0,25;
+    flex: 0.25;
+    background-color: blueviolet;
 }
 
 .homepage__timeline{
-    flex: 0,5;
+    flex: 0.5;
+    background-color: chartreuse;
 }
