@@ -1,23 +1,30 @@
 .header{
-    
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    z-index: 1;
+    flex-direction: column;
 }
 
 .header a{
     text-decoration: none;
     color: white;
-    margin: 20px;
-    font-size: 25px;
+    font-size: 40px;
     font-weight: bold;
 }
 
 .header__img{
-    width: 120px;
+    width: 150px;
     margin: 25px;
     border-radius: 100%;
     border: solid 2px gray;
+}
+
+.header__contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__presentation{
+    display: flex;
+    flex-direction: column;
 }
