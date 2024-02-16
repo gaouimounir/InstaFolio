@@ -2,9 +2,9 @@ import React from 'react';
 import Slider from 'react-slick';
 import './Skills.css';
 
-import HTMLLogo from '../images/html-logo.png';
-import CSSLogo from '../images/css-logo.png';
-import JavaScriptLogo from '../images/javascript-logo.png';
+import HTMLLogo from '../images/logo-html.png';
+import CSSLogo from '../images/logo-css.png';
+import JavaScriptLogo from '../images/logo-js.png';
 // Ajoutez d'autres logos selon vos besoins
 
 import 'slick-carousel/slick/slick.css';
@@ -24,6 +24,8 @@ function Skills() {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    autoplay: true,  // Ajoutez cette ligne pour activer l'autoplay
+    autoplaySpeed: 0,
     responsive: [
       {
         breakpoint: 768,
@@ -44,7 +46,6 @@ function Skills() {
 
   return (
     <div className="skills-container">
-      <h2>My Skills</h2>
       <Slider {...settings}>
         {logos.map((logo, index) => (
           <div key={index}>
