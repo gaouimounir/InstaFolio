@@ -5,6 +5,13 @@ import './Skills.css';
 import HTMLLogo from '../images/logo-html.png';
 import CSSLogo from '../images/logo-css.png';
 import JavaScriptLogo from '../images/logo-js.png';
+import ReactLogo from '../images/logo-react.png';
+import CsharpLogo from '../images/logo-cSharp.jpg';
+import MvcLogo from '../images/logo-mvc.net.png';
+import JavaLogo from '../images/logo-java.jpg';
+import SpringBootLogo from '../images/logo-springboot.jpg';
+import SwiftLogo from '../images/logo-swift.png';
+import GithubLogo from '../images/logo-github.png';
 // Ajoutez d'autres logos selon vos besoins
 
 import 'slick-carousel/slick/slick.css';
@@ -15,6 +22,14 @@ function Skills() {
     HTMLLogo,
     CSSLogo,
     JavaScriptLogo,
+    ReactLogo,
+    CsharpLogo,
+    MvcLogo,
+    JavaLogo,
+    SpringBootLogo,
+    SwiftLogo,
+    GithubLogo,
+    
     // Ajoutez d'autres logos selon vos besoins
   ];
 
