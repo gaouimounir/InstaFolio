@@ -49,7 +49,7 @@ function Skills() {
       <Slider {...settings}>
         {logos.map((logo, index) => (
           <div key={index}>
-            <img src={logo} alt={`Logo ${index + 1}`} />
+            <img className="skill-logo" src={logo} alt={`Logo ${index + 1}`} />
           </div>
         ))}
       </Slider>
