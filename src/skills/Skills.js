@@ -40,7 +40,7 @@ function Skills() {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,  // Ajoutez cette ligne pour activer l'autoplay
-    autoplaySpeed: 0,
+    autoplaySpeed: 300,
     responsive: [
       {
         breakpoint: 768,
@@ -63,7 +63,7 @@ function Skills() {
     <div className="skills-container">
       <Slider {...settings}>
         {logos.map((logo, index) => (
-          <div key={index}>
+          <div className="logo-container" key={index}>
             <img className="skill-logo" src={logo} alt={`Logo ${index + 1}`} />
           </div>
         ))}

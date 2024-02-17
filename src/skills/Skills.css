@@ -6,9 +6,13 @@
 /* Skills.css */
 
 .skills-container {
-    margin: 0 auto;
-    text-align: center;
-    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
   }
   
   .slick-prev,
@@ -42,10 +46,19 @@
     z-index: 1;
   }
   
+.logo-container{
+    justify-content: center;
+}
+
+
 .skill-logo{
   height: 80px;
   width: 80px;
   transition: all 0.3s ease;
   border-radius: 50%;
   border: solid 2px gray;
+  background-color: white;
+  justify-content: space-around;
+  margin: 20px;
+  padding: 2px;
 }
