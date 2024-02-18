@@ -1,64 +1,24 @@
-/* Skills.css */
-@import "~slick-carousel/slick/slick.css";
-@import "~slick-carousel/slick/slick-theme.css";
-
-/* Vos autres styles ici */
-/* Skills.css */
 
 .skills-container {
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-
-  }
-  
-  .slick-prev,
-  .slick-next {
-    font-size: 24px;
-    color: #3498db; /* Couleur des flèches, ajustez selon votre préférence */
-  }
-  
-  .slick-prev:hover,
-  .slick-next:hover {
-    color: #2980b9; /* Couleur des flèches au survol, ajustez selon votre préférence */
-  }
-  
-  .slick-dots {
-    bottom: -30px;
-  }
-  
-  .slick-dots li button:before {
-    font-size: 10px;
-    color: #3498db; /* Couleur des points, ajustez selon votre préférence */
-  }
-  
-  .slick-dots li.slick-active button:before {
-    color: #2980b9; /* Couleur du point actif, ajustez selon votre préférence */
-  }
-  
-  /* Ajustez les styles selon vos préférences */
-  .slick-prev,
-  .slick-next,
-  .slick-dots {
-    z-index: 1;
-  }
-  
-.logo-container{
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
 }
 
-
-.skill-logo{
-  height: 80px;
-  width: 80px;
+.skill-logo {
+  height: 100px;
+  width: 100px;
   transition: all 0.3s ease;
   border-radius: 50%;
   border: solid 2px gray;
   background-color: white;
-  justify-content: space-around;
-  margin: 20px;
-  padding: 2px;
 }
+
+/* Masquer les flèches et les points du carrousel */
+.slick-prev,
+.slick-next,
+.slick-dots {
+  display: none !important;
+}
+
