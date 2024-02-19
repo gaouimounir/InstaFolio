@@ -20,6 +20,31 @@ function Timeline() {
       description: "A Shabbat Brunch App",
       image: ShabbatHome,
     },
+    {
+      title: "Shabbat Brunch",
+      description: "A Shabbat Brunch App",
+      image: ShabbatHome,
+    },
+    {
+      title: "Shabbat Brunch",
+      description: "A Shabbat Brunch App",
+      image: ShabbatHome,
+    },
+    {
+      title: "Shabbat Brunch",
+      description: "A Shabbat Brunch App",
+      image: ShabbatHome,
+    },
+    {
+      title: "Shabbat Brunch",
+      description: "A Shabbat Brunch App",
+      image: ShabbatHome,
+    },
+    {
+      title: "Shabbat Brunch",
+      description: "A Shabbat Brunch App",
+      image: ShabbatHome,
+    },
   ];
 
   return (

@@ -2,15 +2,15 @@
 .projet {
   position: relative;
   overflow: hidden;
-  border-radius: 8px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 33%;
+  border: solid 2px gray;
 }
 
 .projet img {
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 8px;
 }
 
 .projet h3, .projet p {
