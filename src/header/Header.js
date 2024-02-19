@@ -1,7 +1,7 @@
 import React from "react";
 import "@fortawesome/fontawesome-free/css/all.css";
 import "./Header.css";
-import ImgProfil from "../images/ImgProfil.jpg";
+import ImgProfil from "./imageHeader/ImgProfil.jpg";
 
 function Header() {
   return (

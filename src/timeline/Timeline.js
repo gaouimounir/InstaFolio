@@ -1,7 +1,10 @@
 import React from "react";
 import "./Timeline.css";
 import Projet from "../projets/Projet";
-import ShabbatHome from "../images/home.png";
+import ShabbatHome from "./imageTimeline/home.png";
+import FridgeHome from "./imageTimeline/FridgeScan.PNG";
+import Ducsman from "./imageTimeline/ducsman.jpg";
+import OlaBelBul from "./imageTimeline/OlaBelBulHome.PNG";
 
 function Timeline() {
   const projects = [
@@ -13,17 +16,17 @@ function Timeline() {
     {
       title: "Shabbat Brunch",
       description: "A Shabbat Brunch App",
-      image: ShabbatHome,
+      image: FridgeHome,
     },
     {
       title: "Shabbat Brunch",
       description: "A Shabbat Brunch App",
-      image: ShabbatHome,
+      image: Ducsman,
     },
     {
       title: "Shabbat Brunch",
       description: "A Shabbat Brunch App",
-      image: ShabbatHome,
+      image: OlaBelBul,
     },
     {
       title: "Shabbat Brunch",
