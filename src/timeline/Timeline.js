@@ -15,9 +15,9 @@ function Timeline() {
       image: ShabbatHome,
     },
     {
-      title: "Fridge Mate",
+      title: "Meteo Connect",
       description: "A Shabbat Brunch App",
-      image: FridgeHome,
+      image: MeteoConnect,
     },
     {
       title: "Ducsman",
@@ -30,9 +30,9 @@ function Timeline() {
       image: OlaBelBul,
     },
     {
-      title: "Meteo Connect",
+      title: "Fridge Mate",
       description: "A Shabbat Brunch App",
-      image: MeteoConnect,
+      image: FridgeHome,
     },
   ];
 
