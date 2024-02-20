@@ -1,0 +1,14 @@
+.projetDetail__image {
+    width: 100%;
+    height: auto;
+}
+
+.projetDetail__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.projetDetail__description {
+    margin-top: 10px;
+}

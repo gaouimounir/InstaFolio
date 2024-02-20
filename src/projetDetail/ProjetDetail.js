@@ -14,11 +14,9 @@ function ProjetDetail() {
 
   return (
     <div>
-      <h2>Détails du projet</h2>
-      <p>ID du projet : {projet.id}</p>
-      <p>Titre : {projet.title}</p>
-      <p>Description : {projet.description}</p>
-      <img src={projet.image} alt={projet.title} />
+      <img className="projetDetail__image" src={projet.image} alt={projet.title} />
+      <p className="projetDetail__title"> {projet.title}</p>
+      <p className="projetDetail__description"> {projet.description}</p>
     </div>
   );
 }
