@@ -1,11 +1,3 @@
-/* Projet.css */
-.projet {
-  position: relative;
-  overflow: hidden;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  width: 32%;
-  border: solid 2px gray;
-}
 
 .projet img {
   display: block;
