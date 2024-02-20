@@ -28,6 +28,6 @@
   transition: opacity 0.3s ease;
 }
 
-.projet:hover h3, .projet:hover p {
+.projet:hover h3 {
   opacity: 1;
 }

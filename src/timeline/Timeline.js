@@ -5,6 +5,7 @@ import ShabbatHome from "./imageTimeline/home.png";
 import FridgeHome from "./imageTimeline/FridgeScan.PNG";
 import Ducsman from "./imageTimeline/ducsman.jpg";
 import OlaBelBul from "./imageTimeline/OlaBelBulHome.PNG";
+import MeteoConnect from "./imageTimeline/ApiMeteoHome.PNG";
 
 function Timeline() {
   const projects = [
@@ -14,39 +15,24 @@ function Timeline() {
       image: ShabbatHome,
     },
     {
-      title: "Shabbat Brunch",
+      title: "Fridge Mate",
       description: "A Shabbat Brunch App",
       image: FridgeHome,
     },
     {
-      title: "Shabbat Brunch",
+      title: "Ducsman",
       description: "A Shabbat Brunch App",
       image: Ducsman,
     },
     {
-      title: "Shabbat Brunch",
+      title: "Ola Bel Bul",
       description: "A Shabbat Brunch App",
       image: OlaBelBul,
     },
     {
-      title: "Shabbat Brunch",
+      title: "Meteo Connect",
       description: "A Shabbat Brunch App",
-      image: ShabbatHome,
-    },
-    {
-      title: "Shabbat Brunch",
-      description: "A Shabbat Brunch App",
-      image: ShabbatHome,
-    },
-    {
-      title: "Shabbat Brunch",
-      description: "A Shabbat Brunch App",
-      image: ShabbatHome,
-    },
-    {
-      title: "Shabbat Brunch",
-      description: "A Shabbat Brunch App",
-      image: ShabbatHome,
+      image: MeteoConnect,
     },
   ];
 
