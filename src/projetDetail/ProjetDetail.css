@@ -1,24 +1,28 @@
+/* ProjetDetail.css */
+
 .projetDetail {
+    max-width: 1000px;
+    margin: 0 auto;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 80%;
-    margin: auto;
-}
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
 
-
-.projetDetail__image {
+  .projetDetail img {
     width: 100%;
-    height: auto;
-    border-radius: 0.5%;
-}
-
-.projetDetail__title {
+    height: 40rem;
+    object-fit: contain;
+    border-radius: 10px;
+  }
+  
+ 
+  
+  .projetDetail__title {
     font-size: 24px;
     font-weight: bold;
     margin-top: 10px;
-}
-
-.projetDetail__description {
+  }
+  
+  .projetDetail__description {
     margin-top: 10px;
-}
+  }
+  

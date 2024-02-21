@@ -46,7 +46,7 @@ const projetsData = [
     title: "Fridge Mate",
     description: "A Shabbat Brunch App",
     mainImage: FridgeHome,
-    images: [FridgeApp],
+    images: [FridgeApp, FridgeHome],
   },
 ];
 
