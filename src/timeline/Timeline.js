@@ -10,13 +10,11 @@ function Timeline() {
     <div className="timeline-container">
       <div className="timeline">
         {projetsData.map((projet, index) => (
-          <Link
-            className="timeline-item"
-            key={index}
-            to={`/projets/${projet.id}`}
-          >
-            <Projet {...projet} />
-          </Link>
+          <div key={index} className="timeline-item">
+            <Link to={`/projets/${projet.id}`}>
+              <Projet {...projet} />
+            </Link>
+          </div>
         ))}
       </div>
     </div>

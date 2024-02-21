@@ -16,9 +16,5 @@
 }
 
 /* Masquer les flèches et les points du carrousel */
-.slick-prev,
-.slick-next,
-.slick-dots {
-  display: none !important;
-}
+
 
