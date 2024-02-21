@@ -3,6 +3,7 @@ import Homepage from "./Homepage";
 import ProjetDetail from "./projetDetail/ProjetDetail";
 
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { ProfilProvider } from './Context';
 
 const router = createBrowserRouter([
   {
@@ -27,7 +28,9 @@ const router = createBrowserRouter([
 function App() {
   return (
     <>
+      <ProfilProvider>
       <RouterProvider router={router} />
+      </ProfilProvider>
     </>
   );
 }

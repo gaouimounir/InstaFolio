@@ -1,13 +1,17 @@
 import React from "react";
 import "@fortawesome/fontawesome-free/css/all.css";
 import "./Header.css";
-import ImgProfil from "./imageHeader/ImgProfil.jpg";
+import { useHeader } from '../Context';
+
 
 function Header() {
+
+  const { headerData } = useHeader();  // Utilisez le hook pour accéder aux données du Header
+
   return (
     <div className="header">
       <div className="header__nav">
-        <img className="header__img" src={ImgProfil} alt="" />
+        <img className="header__img" src={headerData.imgSrc} alt="" />
 
         <div className="header__contact">
           <a href="https://www.linkedin.com/in/am-gaoui/">
@@ -26,7 +30,7 @@ function Header() {
       </div>
       <div className="header__presentation">
         <div className="header__name">
-          <h1>Gaoui Mounir</h1>
+          <h1>{headerData.name}</h1>
         </div>
         <div className="header__metier">
           <h3>📱 WEB DEVELOPER 💻</h3>
