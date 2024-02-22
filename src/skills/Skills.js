@@ -39,8 +39,6 @@ function Skills() {
     speed: 800,
     slidesToShow: 5,
     slidesToScroll: 1,
-    autoplay: true, // Ajoutez cette ligne pour activer l'autoplay
-    autoplaySpeed: 2000,
     responsive: [
       {
         breakpoint: 768,

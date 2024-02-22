@@ -11,3 +11,20 @@
   border: solid 2px gray;
 }
 
+
+
+/* Styles de base */
+
+@media screen and (max-width: 600px) {
+  .timeline {
+    flex-direction: column; 
+  }
+
+  .timeline-item {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    border: solid 2px gray;
+  }
+}

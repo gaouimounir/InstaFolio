@@ -52,3 +52,23 @@
     font-size: 15px;
     font-weight: bold;
 }
+
+
+
+@media screen and (max-width: 600px) {
+    .header__img{
+        width: 30%;
+    }
+
+    .header__contact{
+        width: 50%;
+    }
+
+    .header a{
+        font-size: 110%;
+    }
+
+    .name__contact{
+        font-size: 80%;
+    }
+}
