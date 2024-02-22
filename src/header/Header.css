@@ -65,20 +65,20 @@
     }
 
     .header a{
-        font-size: 110%;
+        font-size: 200%;
     }
-
+    
     .name__contact{
         font-size: 50%;
     }
 
     .header__description{
-        font-size: 80%;
+        font-size: 100%;
     }
 
     
 
     .header__presentation{
-        font-size: 60%;
+        font-size: 70%;
     }
 }
