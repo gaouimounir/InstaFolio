@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/InstaFolio/static/css/main.b42ef235.css",
-    "main.js": "/InstaFolio/static/js/main.f2a98984.js",
-    "static/js/592.3c98cf48.chunk.js": "/InstaFolio/static/js/592.3c98cf48.chunk.js",
+    "main.js": "/InstaFolio/static/js/main.eec7b9f8.js",
+    "static/js/453.f7f52713.chunk.js": "/InstaFolio/static/js/453.f7f52713.chunk.js",
     "static/media/home.png": "/InstaFolio/static/media/home.c4c35935d40138dc150a.png",
     "static/media/reserver.PNG": "/InstaFolio/static/media/reserver.3f0322422653d23cb492.PNG",
     "static/media/fridgeMate.png": "/InstaFolio/static/media/fridgeMate.7b3a2a1a04adf22bc59a.png",
@@ -39,11 +39,11 @@
     "static/media/slick.woff": "/InstaFolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/InstaFolio/index.html",
     "main.b42ef235.css.map": "/InstaFolio/static/css/main.b42ef235.css.map",
-    "main.f2a98984.js.map": "/InstaFolio/static/js/main.f2a98984.js.map",
-    "592.3c98cf48.chunk.js.map": "/InstaFolio/static/js/592.3c98cf48.chunk.js.map"
+    "main.eec7b9f8.js.map": "/InstaFolio/static/js/main.eec7b9f8.js.map",
+    "453.f7f52713.chunk.js.map": "/InstaFolio/static/js/453.f7f52713.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b42ef235.css",
-    "static/js/main.f2a98984.js"
+    "static/js/main.eec7b9f8.js"
   ]
 }
