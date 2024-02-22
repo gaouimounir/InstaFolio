@@ -36,15 +36,14 @@ function Skills() {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 800,
     slidesToShow: 5,
     slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
+          slidesToShow: 4,
+          
         },
       },
     ],

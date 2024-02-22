@@ -55,7 +55,7 @@
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .header__img{
         width: 30%;
     }
@@ -69,6 +69,16 @@
     }
 
     .name__contact{
-        font-size: 80%;
+        font-size: 50%;
+    }
+
+    .header__description{
+        font-size: 50%;
+    }
+
+    
+
+    .header__presentation{
+        font-size: 60%;
     }
 }
