@@ -13,6 +13,8 @@
   border-radius: 50%;
   border: solid 2px gray;
   background-color: white;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
