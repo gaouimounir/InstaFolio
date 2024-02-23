@@ -17,36 +17,58 @@ const projetsData = [
     title: "Shabbat Brunch",
     description: (
       <div>
-        <p>
-          Shabbat Brunch est un projet complet de développement web réalisé en utilisant la technologie C# .NET avec l'architecture MVC et la gestion de base de données via Entity Framework.
-          Il s'agit d'un site dédié à un restaurant, offrant une expérience utilisateur interactive et pratique.
-        </p>
-        <p>
-          <strong>Fonctionnalités Principales :</strong>
-          <ul>
-            <li>Consultation de la Carte : Les utilisateurs peuvent explorer la carte détaillée du restaurant, affichant une variété de plats et de boissons proposés.</li>
-            <li>Réservation en Ligne : Intégration d'un système de réservation en ligne permettant aux clients de réserver leur table à l'avance, améliorant ainsi l'efficacité et la satisfaction de la clientèle.</li>
-            <li>Gestion Admin : Interface d'administration sécurisée pour gérer facilement les réservations, mettre à jour le menu et gérer les informations de contact du restaurant.</li>
-            <li>Horaires et Localisation : Affichage clair des horaires d'ouverture du restaurant et accès à des informations précises sur sa localisation.</li>
-            <li>Base de Données SQLite : Utilisation d'une base de données SQLite pour stocker et récupérer les données du site de manière efficace et sécurisée.</li>
-          </ul>
-        </p>
-        <p>
-          <strong>Technologies Utilisées :</strong>
-          <ul>
-            <li>C# .NET</li>
-            <li>ASP.NET MVC</li>
-            <li>Entity Framework</li>
-            <li>SQLite</li>
-          </ul>
-        </p>
-        <p>
-          ShabbatBrunch démontre une application pratique des technologies web modernes, offrant une solution fonctionnelle pour les restaurants qui cherchent à améliorer leur présence en ligne et à faciliter les interactions avec leurs clients.
-          <br />
-          <br />
-          <strong>Site Web : </strong>
-          <a style={{ color: "blue" }} href="https://lashabbatapp.azurewebsites.net">https://lashabbatapp.azurewebsites.net</a>
-        </p>
+        Shabbat Brunch est un projet complet de développement web réalisé en
+        utilisant la technologie C# .NET avec l'architecture MVC et la gestion
+        de base de données via Entity Framework. Il s'agit d'un site dédié à un
+        restaurant, offrant une expérience utilisateur interactive et pratique.
+        <strong>Fonctionnalités Principales :</strong>
+        <ul>
+          <li>
+            Consultation de la Carte : Les utilisateurs peuvent explorer la
+            carte détaillée du restaurant, affichant une variété de plats et de
+            boissons proposés.
+          </li>
+          <li>
+            Réservation en Ligne : Intégration d'un système de réservation en
+            ligne permettant aux clients de réserver leur table à l'avance,
+            améliorant ainsi l'efficacité et la satisfaction de la clientèle.
+          </li>
+          <li>
+            Gestion Admin : Interface d'administration sécurisée pour gérer
+            facilement les réservations, mettre à jour le menu et gérer les
+            informations de contact du restaurant.
+          </li>
+          <li>
+            Horaires et Localisation : Affichage clair des horaires d'ouverture
+            du restaurant et accès à des informations précises sur sa
+            localisation.
+          </li>
+          <li>
+            Base de Données SQLite : Utilisation d'une base de données SQLite
+            pour stocker et récupérer les données du site de manière efficace et
+            sécurisée.
+          </li>
+        </ul>
+        <strong>Technologies Utilisées :</strong>
+        <ul>
+          <li>C# .NET</li>
+          <li>ASP.NET MVC</li>
+          <li>Entity Framework</li>
+          <li>SQLite</li>
+        </ul>
+        ShabbatBrunch démontre une application pratique des technologies web
+        modernes, offrant une solution fonctionnelle pour les restaurants qui
+        cherchent à améliorer leur présence en ligne et à faciliter les
+        interactions avec leurs clients.
+        <br />
+        <br />
+        <strong>Site Web : </strong>
+        <a
+          style={{ color: "blue" }}
+          href="https://lashabbatapp.azurewebsites.net"
+        >
+          https://lashabbatapp.azurewebsites.net
+        </a>
       </div>
     ),
     mainImage: ShabbatHome,
@@ -62,7 +84,57 @@ const projetsData = [
   {
     id: 3,
     title: "Ducsman",
-    description: "A Shabbat Brunch App",
+    description: (
+      <div>
+        Le projet Ducsman est une réalisation passionnante qui incarne
+        l'alliance de la créativité et de la fonctionnalité dans le domaine du
+        commerce électronique. Développé en JavaScript, ce site offre une
+        expérience de shopping en ligne immersive pour les amateurs de mode.
+        <strong>Fonctionnalités Principales :</strong>
+        <ul>
+          <li>
+            Catalogue Étendu : Découvrez un large éventail de vêtements triés
+            par catégories, offrant aux utilisateurs une variété de choix selon
+            leurs préférences.
+          </li>
+          <li>
+            Tri et Filtrage : La fonctionnalité de tri et de filtrage permet aux
+            visiteurs de rechercher rapidement des articles spécifiques,
+            facilitant ainsi leur expérience de navigation.{" "}
+          </li>
+          <li>
+            Gestion du Panier : Les utilisateurs peuvent ajouter des articles à
+            leur panier virtuel, facilitant la planification de leurs achats.{" "}
+          </li>
+        </ul>
+        <strong> Technologies Utilisées : </strong>
+        <ul>
+          <li>
+            JavaScript : Le cœur du site repose sur JavaScript, assurant une
+            interactivité dynamique pour les utilisateurs.
+          </li>
+          <li>
+            Données JSON : Les informations sur les produits sont stockées de
+            manière organisée dans des fichiers JSON, garantissant une gestion
+            efficace des données.
+          </li>
+        </ul>
+        Le projet Ducsman représente l'intersection de la mode et de la
+        technologie, démontrant la capacité à créer des solutions numériques
+        innovantes dans le secteur du commerce électronique. Explorez les
+        dernières tendances et préparez-vous à une expérience de shopping en
+        ligne exceptionnelle avec Ducsman.
+        <br />
+        <br />
+        <strong>Site Web : </strong>
+        <a
+          style={{ color: "blue" }}
+          href="https://gaouimounir.github.io/eCommerceJS"
+        >
+          https://gaouimounir.github.io/eCommerceJS
+        </a>
+      </div>
+    ),
     mainImage: Ducsman,
     images: [Ducsman, DucsmanPanier],
   },
