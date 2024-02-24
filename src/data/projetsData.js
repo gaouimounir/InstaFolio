@@ -21,6 +21,8 @@ const projetsData = [
         utilisant la technologie C# .NET avec l'architecture MVC et la gestion
         de base de données via Entity Framework. Il s'agit d'un site dédié à un
         restaurant, offrant une expérience utilisateur interactive et pratique.
+        <br />
+        <br />
         <strong>Fonctionnalités Principales :</strong>
         <ul>
           <li>
@@ -90,6 +92,8 @@ const projetsData = [
         l'alliance de la créativité et de la fonctionnalité dans le domaine du
         commerce électronique. Développé en JavaScript, ce site offre une
         expérience de shopping en ligne immersive pour les amateurs de mode.
+        <br />
+        <br />
         <strong>Fonctionnalités Principales :</strong>
         <ul>
           <li>
@@ -100,11 +104,11 @@ const projetsData = [
           <li>
             Tri et Filtrage : La fonctionnalité de tri et de filtrage permet aux
             visiteurs de rechercher rapidement des articles spécifiques,
-            facilitant ainsi leur expérience de navigation.{" "}
+            facilitant ainsi leur expérience de navigation.
           </li>
           <li>
             Gestion du Panier : Les utilisateurs peuvent ajouter des articles à
-            leur panier virtuel, facilitant la planification de leurs achats.{" "}
+            leur panier virtuel, facilitant la planification de leurs achats.
           </li>
         </ul>
         <strong> Technologies Utilisées : </strong>
@@ -141,7 +145,65 @@ const projetsData = [
   {
     id: 4,
     title: "Ola Bel Bul",
-    description: "A Shabbat Brunch App",
+    description: (
+      <div>
+        Le projet Ola Bel Bul incarne une fusion harmonieuse entre la créativité
+        digitale et le lancement d'une nouvelle boisson probiotique. Développé
+        en HTML, CSS et JavaScript, ce site vitrine offre une plongée immersive
+        dans l'univers de cette entreprise innovante de kombucha.
+        <br />
+        <br />
+        <strong> Caractéristiques Clés : </strong>
+        <ul>
+          <li>
+            Histoire et Valeurs : Explorez l'histoire captivante de Ola Bel Bul,
+            découvrez ses valeurs fondamentales et plongez dans le parcours qui
+            a conduit à la création de cette boisson unique.
+          </li>
+          <li>
+            Diversité des Saveurs : Présentation des différentes saveurs de
+            kombucha proposées, offrant aux visiteurs un aperçu des choix
+            délicieux disponibles.
+          </li>
+          <li>
+            Prestations Offertes : Une section détaillée sur les services
+            proposés par Ola Bel Bul, mettant en lumière les options de
+            partenariat, les événements spéciaux et bien plus encore.
+          </li>
+          <li>
+            Page de Contact : Facilitez la communication avec une page de
+            contact interactive, permettant aux visiteurs d'envoyer des messages
+            et de poser des questions.
+          </li>
+        </ul>
+        <strong>Technologies Utilisées : </strong>
+        <ul>
+          <li>
+            HTML, CSS, JavaScript : La combinaison de ces technologies assure
+            une présentation visuelle attrayante et une interaction fluide avec
+            le site.
+          </li>
+          <li>
+            Design Responsive : L'interface est pensée pour s'adapter à tous les
+            types d'appareils, garantissant une expérience utilisateur optimale
+            sur ordinateurs, tablettes et smartphones.
+          </li>
+        </ul>
+        Ola Bel Bul représente bien plus qu'une simple boisson, c'est une
+        aventure gustative ancrée dans une histoire inspirante. Explorez les
+        saveurs, plongez dans l'histoire et découvrez les opportunités de
+        collaboration avec ce site web captivant.
+        <br />
+        <br />
+        <strong>Site Web : </strong>
+        <a
+          style={{ color: "blue" }}
+          href="https://gaouimounir.github.io/WebSite_OlaBelBul"
+        >
+          https://gaouimounir.github.io/WebSite_OlaBelBul
+        </a>
+      </div>
+    ),
     mainImage: OlaBelBul,
     images: [OlaBelBul, OlaBelBulValeur, OlaBelBulBenefice],
   },

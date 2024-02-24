@@ -38,7 +38,7 @@ function ProjetDetail() {
         ))}
       </Slider>
       <p className="projetDetail__title"> {projet.title}</p>
-      <p className="projetDetail__description"> {projet.description}</p>
+      <div className="projetDetail__description"> {projet.description}</div>
     </div>
   );
 }
