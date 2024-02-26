@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Slider from "react-slick";
 import "./Skills.css";
 
@@ -33,22 +33,19 @@ function Skills() {
     // Ajoutez d'autres logos selon vos besoins
   ];
 
-  const [slidesToScroll, setSlidesToScroll] = useState(logos.length);
-
   const settings = {
     dots: true,
     infinite: true,
-    slidesToShow: 5, // Nombre de logos affichés à la fois
-    slidesToScroll: slidesToScroll, // SlidesToScroll dépend de la valeur dynamique
-    afterChange: (currentSlide) => {
-      // Met à jour la valeur de slidesToScroll avec le nombre actuel de logos slidés
-      setSlidesToScroll(currentSlide + 1);
-    },
+    slidesToShow: 6,
+    swipeToSlide: true,
     responsive: [
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 4, // Nombre de logos affichés à la fois sur les petits écrans
+          slidesToShow: 4,
+          swipeToSlide: true,
+
+          
         },
       },
     ],
