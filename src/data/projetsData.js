@@ -76,13 +76,13 @@ const projetsData = [
     mainImage: ShabbatHome,
     images: [ShabbatHome, ShabbatReservation, ShabbatMenu],
   },
-  {
-    id: 2,
-    title: "Meteo Connect",
-    description: "A Shabbat Brunch App",
-    mainImage: MeteoConnect,
-    images: [MeteoConnect, MeteoBody],
-  },
+  // {
+  //   id: 2,
+  //   title: "Meteo Connect",
+  //   description: "A Shabbat Brunch App",
+  //   mainImage: MeteoConnect,
+  //   images: [MeteoConnect, MeteoBody],
+  // },
   {
     id: 3,
     title: "Ducsman",
@@ -207,13 +207,13 @@ const projetsData = [
     mainImage: OlaBelBul,
     images: [OlaBelBul, OlaBelBulValeur, OlaBelBulBenefice],
   },
-  {
-    id: 5,
-    title: "Fridge Mate",
-    description: "A Shabbat Brunch App",
-    mainImage: FridgeHome,
-    images: [FridgeApp, FridgeHome],
-  },
+  // {
+  //   id: 5,
+  //   title: "Fridge Mate",
+  //   description: "A Shabbat Brunch App",
+  //   mainImage: FridgeHome,
+  //   images: [FridgeApp, FridgeHome],
+  // },
 ];
 
 export default projetsData;

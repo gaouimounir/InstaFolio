@@ -34,18 +34,18 @@ function Skills() {
   ];
 
   const settings = {
-    dots: true,
     infinite: true,
     slidesToShow: 6,
     swipeToSlide: true,
+    focusonselect: true,
     responsive: [
       {
         breakpoint: 768,
         settings: {
+          arrows: false,
           slidesToShow: 4,
           swipeToSlide: true,
-
-          
+          focusonselect: true,
         },
       },
     ],
