@@ -3,6 +3,8 @@ import ShabbatReservation from "./imageDataProjet/shabbatBrunch/reserver.PNG";
 import ShabbatMenu from "./imageDataProjet/shabbatBrunch/carteMobile.PNG";
 import FridgeHome from "./imageDataProjet/fridgeMate/FridgeScan.PNG";
 import FridgeApp from "./imageDataProjet/fridgeMate/fridgeMate.png";
+import FridgeMap from "./imageDataProjet/fridgeMate/fridgeMap.PNG";
+import FridgeParam from "./imageDataProjet/fridgeMate/fridgeParam.PNG";
 import Ducsman from "./imageDataProjet/ducsman/ducsman.jpg";
 import DucsmanPanier from "./imageDataProjet/ducsman/ducsmanPanier.PNG";
 import OlaBelBul from "./imageDataProjet/olaBelBul/OlaBelBulHome.PNG";
@@ -10,6 +12,9 @@ import OlaBelBulValeur from "./imageDataProjet/olaBelBul/kombuchaValeur.PNG";
 import OlaBelBulBenefice from "./imageDataProjet/olaBelBul/kombuchaBenefice.PNG";
 import MeteoConnect from "./imageDataProjet/meteoConnect/ApiMeteoHome.PNG";
 import MeteoBody from "./imageDataProjet/meteoConnect/ApiMeteoBody.PNG";
+import DevBankMenu from "./imageDataProjet/devBank/bankMenu.PNG";
+import DevBankTransaction from "./imageDataProjet/devBank/bankTransaction.PNG";
+import DevBankVirement from "./imageDataProjet/devBank/bankVirement.PNG";
 
 const projetsData = [
   {
@@ -129,14 +134,14 @@ const projetsData = [
         <strong>Github Repository: </strong>
         <a
           style={{ color: "blue" }}
-          href="https://lashabbatapp.azurewebsites.net"
+          href="https://github.com/gaouimounir/BankConsole"
         >
-          https://lashabbatapp.azurewebsites.net
+          https://github.com/gaouimounir/BankConsole
         </a>
       </div>
     ),
-    mainImage: FridgeHome,
-    images: [FridgeHome, FridgeApp],
+    mainImage: DevBankMenu,
+    images: [DevBankMenu, DevBankVirement, DevBankTransaction],
   },
 
   {
@@ -260,13 +265,13 @@ const projetsData = [
     mainImage: OlaBelBul,
     images: [OlaBelBul, OlaBelBulValeur, OlaBelBulBenefice],
   },
-  // {
-  //   id: 5,
-  //   title: "Fridge Mate",
-  //   description: "A Shabbat Brunch App",
-  //   mainImage: FridgeHome,
-  //   images: [FridgeApp, FridgeHome],
-  // },
+   {
+     id: 5,
+     title: "Fridge Mate",
+     description: "A Shabbat Brunch App",
+     mainImage: FridgeHome,
+     images: [FridgeApp, FridgeMap, FridgeParam],
+   },
 ];
 
 export default projetsData;
