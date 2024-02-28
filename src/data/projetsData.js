@@ -10,8 +10,6 @@ import DucsmanPanier from "./imageDataProjet/ducsman/ducsmanPanier.PNG";
 import OlaBelBul from "./imageDataProjet/olaBelBul/OlaBelBulHome.PNG";
 import OlaBelBulValeur from "./imageDataProjet/olaBelBul/kombuchaValeur.PNG";
 import OlaBelBulBenefice from "./imageDataProjet/olaBelBul/kombuchaBenefice.PNG";
-import MeteoConnect from "./imageDataProjet/meteoConnect/ApiMeteoHome.PNG";
-import MeteoBody from "./imageDataProjet/meteoConnect/ApiMeteoBody.PNG";
 import DevBankMenu from "./imageDataProjet/devBank/bankMenu.PNG";
 import DevBankTransaction from "./imageDataProjet/devBank/bankTransaction.PNG";
 import DevBankVirement from "./imageDataProjet/devBank/bankVirement.PNG";
@@ -78,13 +76,6 @@ const projetsData = [
     mainImage: ShabbatHome,
     images: [ShabbatHome, ShabbatReservation, ShabbatMenu],
   },
-  // {
-  //   id: 2,
-  //   title: "Meteo Connect",
-  //   description: "A Shabbat Brunch App",
-  //   mainImage: MeteoConnect,
-  //   images: [MeteoConnect, MeteoBody],
-  // },
 
   {
     id: 2,
@@ -265,13 +256,52 @@ const projetsData = [
     mainImage: OlaBelBul,
     images: [OlaBelBul, OlaBelBulValeur, OlaBelBulBenefice],
   },
-   {
-     id: 5,
-     title: "Fridge Mate",
-     description: "A Shabbat Brunch App",
-     mainImage: FridgeHome,
-     images: [FridgeApp, FridgeMap, FridgeParam],
-   },
+  {
+    id: 5,
+    title: "Fridge Mate",
+    description: (
+      <div>
+        Fridge Mate is an innovative iOS mobile application built using Swift
+        and SwiftUI, aimed at addressing the issue of food waste.
+        <br />
+        <br />
+        <strong>Main Features:</strong>
+        <ul>
+          <li>
+            Aliment List: Users can view a comprehensive list of available food
+            items.
+          </li>
+          <li>
+            Food Recording: Foods can be added to the inventory either manually
+            through a form or by scanning the barcode for quick entry.
+          </li>
+          <li>
+            Recipe Recommendations: Access a curated list of recipes based on
+            the available ingredients in the inventory.
+          </li>
+          <li>
+            Map Integration: Explore a map feature showcasing solidarity
+            associations and locations related to food donations.
+          </li>
+        </ul>
+        <br />
+        <br />
+        <strong>Technologies Used:</strong>
+        <ul>
+          <li>Xcode</li>
+          <li>Swift</li>
+          <li>SwiftUI</li>
+          <li>Figma for UI/UX design</li>
+        </ul>
+        Fridge Mate represents a significant contribution to the fight against
+        food waste, the application seamlessly combines a user-friendly
+        interface with powerful functionalities to encourage conscious
+        consumption and reduce food waste.
+      </div>
+    ),
+    mainImage: FridgeHome,
+    images: [FridgeApp, FridgeMap, FridgeParam],
+  },
 ];
 
 export default projetsData;
