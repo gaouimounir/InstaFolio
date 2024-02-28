@@ -11,6 +11,8 @@ import MvcLogo from "./imageSkills/logo-mvc.net.png";
 import JavaLogo from "./imageSkills/logo-java.jpg";
 import SpringBootLogo from "./imageSkills/logo-springboot.jpg";
 import SwiftLogo from "./imageSkills/logo-swift.png";
+import SqlLogo from "./imageSkills/logoSql.PNG";
+import MySqlLogo from "./imageSkills/logoMysql.PNG";
 import GithubLogo from "./imageSkills/logo-github.png";
 // Ajoutez d'autres logos selon vos besoins
 
@@ -27,6 +29,8 @@ function Skills() {
     MvcLogo,
     JavaLogo,
     SpringBootLogo,
+    SqlLogo,
+    MySqlLogo,
     SwiftLogo,
     GithubLogo,
 
