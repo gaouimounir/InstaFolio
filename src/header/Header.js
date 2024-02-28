@@ -31,6 +31,7 @@ function Header() {
       <div className="header__presentation">
         <div className="header__name">
           <h1>{headerData.name}</h1>
+          <h4>📍 Lille, France</h4>
         </div>
         <div className="header__metier">
           <h3>📱 WEB DEVELOPER 💻</h3>

@@ -66,7 +66,7 @@ const projetsData = [
         <br />
         <strong>Website: </strong>
         <a
-          style={{ color: "blue" }}
+          style={{ color: "cornflowerblue" }}
           href="https://lashabbatapp.azurewebsites.net"
         >
           https://lashabbatapp.azurewebsites.net
@@ -124,7 +124,7 @@ const projetsData = [
         <br />
         <strong>Github Repository: </strong>
         <a
-          style={{ color: "blue" }}
+          style={{ color: "cornflowerblue" }}
           href="https://github.com/gaouimounir/BankConsole"
         >
           https://github.com/gaouimounir/BankConsole
@@ -182,7 +182,7 @@ const projetsData = [
         <br />
         <strong>Website: </strong>
         <a
-          style={{ color: "blue" }}
+          style={{ color: "cornflowerblue" }}
           href="https://gaouimounir.github.io/eCommerceJS"
         >
           https://gaouimounir.github.io/eCommerceJS
@@ -246,7 +246,7 @@ const projetsData = [
         <br />
         <strong>Website: </strong>
         <a
-          style={{ color: "blue" }}
+          style={{ color: "cornflowerblue" }}
           href="https://gaouimounir.github.io/WebSite_OlaBelBul"
         >
           https://gaouimounir.github.io/WebSite_OlaBelBul
